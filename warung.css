@@ -1,0 +1,69 @@
+/* CSS Halaman Menu Warung */
+
+body {
+    margin: 0;
+    background-color: #fff4e6;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Grouping selector */
+h1, h2 {
+    color: #d35400;
+}
+
+/* Judul */
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+/* Kotak warung */
+.warung {
+    width: 500px;
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #e67e22;
+    border-radius: 12px;
+}
+
+/* Menu */
+.menu {
+    margin-top: 20px;
+}
+
+/* Daftar makanan/minuman */
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin: 8px 0;
+    background-color: #fff0db;
+    border-radius: 6px;
+}
+
+/* Pseudo-class */
+.item:hover {
+    background-color: #ffe0b2;
+    cursor: pointer;
+}
+
+/* Descendant selector */
+.menu .item span {
+    font-size: 16px;
+}
+
+/* Menggunakan nama warna */
+.slogan {
+    color: green;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    margin-top: 25px;
+    text-align: center;
+    color: #777;
+}
